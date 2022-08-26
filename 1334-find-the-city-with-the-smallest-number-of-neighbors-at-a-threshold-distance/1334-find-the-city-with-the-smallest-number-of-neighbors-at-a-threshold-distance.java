@@ -1,6 +1,6 @@
 class Solution {
     public int findTheCity(int n, int[][] edges, int distanceThreshold) {
-        //鄰接矩陣1
+        //鄰接矩陣
         int[][] d = new int[n][n];
         for(int i = 0; i< n; i++)
             for(int j = 0; j < n; j++)
